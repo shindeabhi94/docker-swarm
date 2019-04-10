@@ -1,0 +1,9 @@
+version: '3.0'
+
+services:
+
+  web:
+    build: /var/lib/jenkins/workspace/swarm
+    image: shindeabhi94/swarm:2.0
+    ports:
+    - 80:80/tcp
